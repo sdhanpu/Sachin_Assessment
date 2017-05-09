@@ -58,6 +58,9 @@ public class App
         }
         
     }
+	App(){}
+		
+	
 	App(List<Account> accounts){
 		this.accounts=accounts;
 	}
