@@ -53,34 +53,34 @@ public class AppTestTest {
 	@Test
 	public void getAccountDetailsByID(){
 		
-		List<Account> accounts=new ArrayList<Account>();
-		
-		Account accountNum1=new Account(1,"Sachin",465.5);
-		Account accountNum2=new Account(2,"Aniraban",121.6);
-		Account accountNum3=new Account(3,"Vinod",473.5);
-		Account accountNum4=null;
-		
-		accounts.add(accountNum1);	
-		accounts.add(accountNum2);
-		accounts.add(accountNum3);
-		
-		
-		
-		assertNull(null);
-		assertNull(accountNum4);
-		
-		App app1=new App(accounts);		
-		Account foundAccount=app1.getAccountDetailsByID(1);				
-		assertNotNull("Account containing Act ID1 ",foundAccount);
-		assertEquals("Sachin",foundAccount.getUserName());
-		assertEquals(1,foundAccount.getAccountID());
-		
-		
+//		List<Account> accounts=new ArrayList<Account>();
+//		
+//		Account accountNum1=new Account(1,"Sachin",465.5);
+//		Account accountNum2=new Account(2,"Aniraban",121.6);
+//		Account accountNum3=new Account(3,"Vinod",473.5);
+//		Account accountNum4=null;
+//		
+//		accounts.add(accountNum1);	
+//		accounts.add(accountNum2);
+//		accounts.add(accountNum3);
+//		
+//		
+//		
+//		assertNull(null);
+//		assertNull(accountNum4);
+//		
+//		App app1=new App(accounts);		
+//		Account foundAccount=app1.getAccountDetailsByID(1);				
+//		assertNotNull("Account containing Act ID1 ",foundAccount);
+//		assertEquals("Sachin",foundAccount.getUserName());
+//		assertEquals(1,foundAccount.getAccountID());
 		
 		
+				
 		
 	}
 	
+	@Test
 	public void getAccountDetailsByBalance()
 	{
 		
