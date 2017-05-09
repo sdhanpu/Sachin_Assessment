@@ -37,10 +37,22 @@ public class App
 	public List<Account> getAccountDetailsByBalance(double amount)
     {
     	
-    	List<Account> result=new ArrayList<Account>();
+		List<Account> result=new ArrayList<Account>();
     	
+        for(int i=0;i<accounts.size();i++)
+        {
+        	if(accounts.get(i).getBalance()>=amount) 
+        		result.add(accounts.get(i));
+        }
         
+        if(result.size()==0)
+        {
+        	return null;
+        }
+        else
+        {
     		return result;
+        }
         
     }
 	
