@@ -1,5 +1,7 @@
 package com.wipro.bank.assessment;
 import com.wipro.bank.entity.*;
+
+
 import java.util.List;
 import java.util.ArrayList;
 
@@ -8,12 +10,13 @@ import java.util.ArrayList;
  * Hello world!
  *
  */
+
 public class App 
 {
        
-    public static final List<Account> accounts=new ArrayList<Account>();
+    public static List<Account> accounts=new ArrayList<Account>();
     
-	public void Add(Account accountNum1)
+	public void add(Account accountNum1)
     {
 		accounts.add(accountNum1);
     } 
@@ -55,6 +58,13 @@ public class App
         }
         
     }
+	App(List<Account> accounts){
+		this.accounts=accounts;
+	}
 	
+	public static void main(String args[])
+	{
+		
+	}
 	
 }
