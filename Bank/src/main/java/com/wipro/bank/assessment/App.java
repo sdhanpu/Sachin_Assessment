@@ -15,7 +15,7 @@ public class App
     
 	public void Add(Account accountNum1)
     {
-    	
+		accounts.add(accountNum1);
     } 
 	
 	 public Account getAccountDetailsByID(int id)
