@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: com.wipro.bank.assessment.AppTestTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.02 sec <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.01 sec <<< FAILURE!
 getAccountDetailsByBalance(com.wipro.bank.assessment.AppTestTest)  Time elapsed: 0.01 sec  <<< ERROR!
 java.lang.IndexOutOfBoundsException: Index: 4, Size: 3
 	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
