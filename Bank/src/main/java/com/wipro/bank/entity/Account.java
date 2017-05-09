@@ -85,12 +85,4 @@ public class Account {
 	
 	
 
-	/* (non-Javadoc)
-	 * @see java.lang.Object#toString()
-	 */
-	@Override
-	public String toString() {
-		return "Account [accountID=" + accountID + ", userName=" + userName
-				+ ", balance=" + balance + "]";
-	}
 }

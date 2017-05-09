@@ -1,6 +1,6 @@
 package com.wipro.bank.assessment;
 import com.wipro.bank.entity.*;
-
+import com.wipro.bank.entity.Account;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -16,10 +16,7 @@ public class App
        
     public static List<Account> accounts=new ArrayList<Account>();
     
-	public void add(Account accountNum1)
-    {
-		accounts.add(accountNum1);
-    } 
+
 	
 	 public Account getAccountDetailsByID(int id)
     {
@@ -58,16 +55,11 @@ public class App
         }
         
     }
-	App(){}
-		
-	
-	App(List<Account> accounts){
-		this.accounts=accounts;
-	}
+
 	
 	public static void main(String args[])
 	{
-		
+		System.out.println("##################");
 	}
 	
 }
