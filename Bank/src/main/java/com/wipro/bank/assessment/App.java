@@ -21,10 +21,16 @@ public class App
 	 public Account getAccountDetailsByID(int id)
     {
         
-        Account result=null;      
-        
-       
-		return result;
+		  Account result=null;
+	        
+	        
+	        for(int i=0;i<accounts.size();i++)
+	        {
+	        	if(accounts.get(i).getAccountID()==id) 
+	        		result = accounts.get(i);
+	        }
+			return result;
+			
     }
 	
 	
